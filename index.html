@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login</title>
+  <link rel="stylesheet" href="auth.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="login-box">
+      <div class="form-section">
+        <h2>Welcome Back!!</h2>
+        <form>
+          <div class="input-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="email@gmail.com" required />
+          </div>
+          <div class="input-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter your password" required />
+            <a href="#" class="forgot-password">Forgot Password?</a>
+          </div>
+          <button type="submit" class="login-button">Login</button>
+        </form>
+
+        <div class="divider">- or -</div>
+
+        <div class="social-login">
+          <button><img src="https://img.icons8.com/color/48/google-logo.png" alt="Google" /></button>
+          <button><img src="https://img.icons8.com/ios-filled/50/000000/facebook-new.png" alt="Facebook" /></button>
+          <button><img src="https://img.icons8.com/ios-filled/50/000000/mac-os.png" alt="Apple" /></button>
+        </div>
+
+        <p class="toggle-text">
+          Don’t have an account?
+          <a href="authsignup.html">Sign up</a>
+        </p>
+      </div>
+      <div class="image-section">
+        <img src="/images/7975293-removebg-preview.png" alt="Login Illustration" />
+      </div>
+    </div>
+  </div>
+</body>
+</html>
